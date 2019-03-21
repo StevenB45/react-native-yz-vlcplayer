@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="394" column="37" lean-forward="true" selection-start-line="394" selection-start-column="37" selection-end-line="394" selection-end-column="37" />
+            <state relative-caret-position="480">
+              <caret line="341" column="47" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,19 +26,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playerView/VLCPlayerView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VLCPlayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="160" column="46" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="46" />
+            <state relative-caret-position="375">
+              <caret line="157" column="18" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,7 +58,9 @@
       <find>VLCOptions</find>
       <find>media</find>
       <find>mediaOptionsList</find>
+      <find>source</find>
       <find>mediaOptions</find>
+      <find>srcMap</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -219,12 +212,12 @@
       <updated>1553074955478</updated>
       <workItem from="1553074956798" duration="899000" />
       <workItem from="1553130617319" duration="1347000" />
-      <workItem from="1553132457841" duration="2630000" />
+      <workItem from="1553132457841" duration="3045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4876000" />
+    <option name="totallyTimeSpent" value="5291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="435" y="23" width="1810" height="1332" extended-state="0" />
@@ -330,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VLCPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="160" column="46" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="46" />
+        <state relative-caret-position="375">
+          <caret line="157" column="18" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -340,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="394" column="37" lean-forward="true" selection-start-line="394" selection-start-column="37" selection-end-line="394" selection-end-column="37" />
+        <state relative-caret-position="480">
+          <caret line="341" column="47" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

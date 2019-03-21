@@ -157,8 +157,7 @@ export default class VLCPlayer extends Component {
         if(Platform.OS === 'ios'){
             source.mediaOptions = this.props.mediaOptions || {};
         }else{
-            let mediaOptions = this.props.mediaOptions || [];
-            source.mediaOptions = mediaOptions;
+            source.mediaOptions = this.props.mediaOptions || [];
         }
         source.initOptions = this.props.initOptions || [];
         source.isNetwork = isNetwork;
