@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18eea694-009b-4182-ae0b-ac4f53b7370d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VLCPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/VLCPlayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="341" column="47" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
+            <state relative-caret-position="498">
+              <caret line="349" selection-start-line="349" selection-end-line="349" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VLCPlayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="2826">
               <caret line="157" column="18" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="702">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -90,6 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -212,18 +211,19 @@
       <updated>1553074955478</updated>
       <workItem from="1553074956798" duration="899000" />
       <workItem from="1553130617319" duration="1347000" />
-      <workItem from="1553132457841" duration="3045000" />
+      <workItem from="1553132457841" duration="3239000" />
+      <workItem from="1553154004318" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5291000" />
+    <option name="totallyTimeSpent" value="5488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="435" y="23" width="1810" height="1332" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2568337" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26025057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -307,13 +307,6 @@
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/VideoEventEmitter.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playerView/VLCPlayerView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -321,9 +314,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="349" selection-start-line="349" selection-end-line="349" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/VLCPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="2826">
           <caret line="157" column="18" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -331,13 +334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java">
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="341" column="47" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="702">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

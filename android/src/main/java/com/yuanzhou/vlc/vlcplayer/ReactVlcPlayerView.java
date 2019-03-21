@@ -347,7 +347,6 @@ class ReactVlcPlayerView extends TextureView implements
             if(initType == 1){
                 libvlc =  VLCInstance.get(getContext());
             }else{
-                cOptions.set(10, "--network-caching=300");
                 libvlc =  new LibVLC(getContext(), cOptions);
             }
             //libvlc = new LibVLC(getContext(), options);
