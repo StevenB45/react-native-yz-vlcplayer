@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18eea694-009b-4182-ae0b-ac4f53b7370d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="346" column="30" lean-forward="true" selection-start-line="346" selection-start-column="30" selection-end-line="346" selection-end-column="30" />
+            <state relative-caret-position="530">
+              <caret line="340" column="62" lean-forward="true" selection-start-line="340" selection-start-column="62" selection-end-line="340" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,12 +197,12 @@
       <updated>1553074955478</updated>
       <workItem from="1553074956798" duration="899000" />
       <workItem from="1553130617319" duration="1347000" />
-      <workItem from="1553132457841" duration="75000" />
+      <workItem from="1553132457841" duration="207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2321000" />
+    <option name="totallyTimeSpent" value="2453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="435" y="23" width="1810" height="1332" extended-state="0" />
@@ -301,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/yuanzhou/vlc/vlcplayer/ReactVlcPlayerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="346" column="30" lean-forward="true" selection-start-line="346" selection-start-column="30" selection-end-line="346" selection-end-column="30" />
+        <state relative-caret-position="530">
+          <caret line="340" column="62" lean-forward="true" selection-start-line="340" selection-start-column="62" selection-end-line="340" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

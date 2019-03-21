@@ -327,7 +327,7 @@ class ReactVlcPlayerView extends TextureView implements
             return;
         }
         try {
-            ArrayList<String> cOptions = [];
+            ArrayList<String> cOptions = new ArrayList<String>(50);
             String uriString = srcMap.hasKey("uri") ? srcMap.getString("uri") : null;
             //String extension = srcMap.hasKey("type") ? srcMap.getString("type") : null;
             boolean isNetwork = srcMap.hasKey("isNetwork") ? srcMap.getBoolean("isNetwork") : false;
