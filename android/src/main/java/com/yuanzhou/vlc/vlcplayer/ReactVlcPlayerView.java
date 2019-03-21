@@ -327,7 +327,7 @@ class ReactVlcPlayerView extends TextureView implements
             return;
         }
         try {
-            ArrayList<String> cOptions = VLCOptions.getLibOptions(getContext());
+            ArrayList<String> cOptions = [];
             String uriString = srcMap.hasKey("uri") ? srcMap.getString("uri") : null;
             //String extension = srcMap.hasKey("type") ? srcMap.getString("type") : null;
             boolean isNetwork = srcMap.hasKey("isNetwork") ? srcMap.getBoolean("isNetwork") : false;
@@ -344,9 +344,11 @@ class ReactVlcPlayerView extends TextureView implements
                     cOptions.add(option);
                 }
             }
-            cOptions.add("--network-caching=300");
-            cOptions.add("RV16");
-            libvlc =  new LibVLC(getContext(), cOptions);
+            if(initType == 1){
+                libvlc =  VLCInstance.get(getContext());
+            }else{
+                libvlc =  new LibVLC(getContext(), cOptions);
+            }
             //libvlc = new LibVLC(getContext(), options);
             // Create media player
             mMediaPlayer = new MediaPlayer(libvlc);
