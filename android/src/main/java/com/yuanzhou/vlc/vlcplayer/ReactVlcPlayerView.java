@@ -391,6 +391,7 @@ class ReactVlcPlayerView extends TextureView implements
                      m.addOption(option);
                 }
             }
+//            m.addOption(":network-caching=150");
             mMediaPlayer.setMedia(m);
             mMediaPlayer.setScale(0);
 
