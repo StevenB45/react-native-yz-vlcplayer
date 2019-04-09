@@ -49,7 +49,7 @@ export default class VLCPlayerView extends Component {
     seek: 0,
     playInBackground: false,
     isAd: false,
-    autoplay: false,
+    autoplay: true,
     lookTime: 0,
     totalTime: 0,
   };
