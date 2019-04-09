@@ -109,11 +109,11 @@ export default class VlCPlayerViewByMethod extends Component {
             nextBtnText: 'Suivant'
         },
         errorViewText: {
-            errorText: 'La connexion à la caméra n\\\'a pas pu être établie.\\nVeuillez cliquer sur "retour" et réessayer.',
+            errorText: 'La connexion à la caméra n\'a pas pu être établie.\nVeuillez cliquer sur "retour" et réessayer.',
             reloadBtnText: 'Recharger',
         },
         vipEndViewText: {
-            vipEndText: 'Fin de la version d\\\'essai, pour continuer vous devez avoir un compte',
+            vipEndText: 'Fin de la version d\'essai, pour continuer vous devez avoir un compte',
             boughtBtnText: 'Souscrire',
         },
         chapterText: 'Chapitre',
