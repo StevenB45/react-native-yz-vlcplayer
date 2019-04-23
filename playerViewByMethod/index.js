@@ -1183,7 +1183,7 @@ export default class VlCPlayerViewByMethod extends Component {
             if (showControls) {
                 this.setState({showControls: false});
             } else {
-                this.setState({showControls: true});
+                this.setState({showControls: false});
             }
         }
         //console.log('_onBodyPress',showControls)
