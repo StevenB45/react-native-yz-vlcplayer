@@ -358,7 +358,7 @@ export default class VLCPlayerView extends Component {
                   ':live-caching': 400,
                 }
                 }
-                initOptions={initOptions || []}
+                initOptions={initOptions || {}}
                 initType={initType || 1}
               />
           </View>

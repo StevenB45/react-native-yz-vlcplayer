@@ -154,12 +154,8 @@ export default class VLCPlayer extends Component {
         if (uri && uri.match(/^\//)) {
             isNetwork = false;
         }
-        if (Platform.OS === 'ios') {
-            source.mediaOptions = this.props.mediaOptions || {};
-        } else {
-            source.mediaOptions = this.props.mediaOptions || [];
-        }
-        source.initOptions = this.props.initOptions || [];
+        source.mediaOptions = this.props.mediaOptions || {};
+        source.initOptions = this.props.initOptions || {};
         source.isNetwork = isNetwork;
         source.autoplay = this.props.autoplay;
         if (!isNaN(this.props.hwDecoderEnabled) && !isNaN(this.props.hwDecoderForced)) {
