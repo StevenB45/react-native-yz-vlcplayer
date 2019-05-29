@@ -1873,8 +1873,8 @@ export default class VlCPlayerViewByMethod extends Component {
                                 initType={initAdType}
                                 mediaOptions={
                                     {
-                                        ':network-caching': 0,
-                                        ':live-caching': 1500,
+                                        ':network-caching': 400,
+                                        ':live-caching': 400,
                                     }
                                 }
                             />
@@ -1905,8 +1905,8 @@ export default class VlCPlayerViewByMethod extends Component {
                                 initType={initType}
                                 mediaOptions={
                                     {
-                                        ':network-caching': 250,
-                                        ':live-caching': 250,
+                                        ':network-caching': 400,
+                                        ':live-caching': 400,
                                     }
                                 }
                             />
