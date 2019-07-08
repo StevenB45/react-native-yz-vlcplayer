@@ -33,8 +33,8 @@ android {
 }
 
 dependencies {
-    provided fileTree(dir: 'libs', include: ['*.jar'])
-    provided "com.facebook.react:react-native:${_reactNativeVersion}"
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly "com.facebook.react:react-native:${_reactNativeVersion}"
     implementation 'com.yyl.vlc:vlc-android-sdk:3.0.13'
     implementation "com.android.support:support-annotations:${_supportLibVersion}"
     implementation "com.android.support:support-compat:${_supportLibVersion}"
