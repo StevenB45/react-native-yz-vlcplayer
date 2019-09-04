@@ -1875,6 +1875,7 @@ export default class VlCPlayerViewByMethod extends Component {
                                     {
                                         ':network-caching': 400,
                                         ':live-caching': 400,
+                                        ':clock-jitter': 0,
                                     }
                                 }
                             />
@@ -1907,6 +1908,7 @@ export default class VlCPlayerViewByMethod extends Component {
                                     {
                                         ':network-caching': 400,
                                         ':live-caching': 400,
+                                        ':clock-jitter': 0,
                                     }
                                 }
                             />
