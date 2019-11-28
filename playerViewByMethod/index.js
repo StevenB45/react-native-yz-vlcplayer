@@ -1778,6 +1778,7 @@ export default class VlCPlayerViewByMethod extends Component {
             initAdOptions,
             initType,
             initOptions,
+            mediaOptions,
         } = this.props;
         let {isEndAd, isFull, currentUrl, isEnding} = this.state;
         /**
@@ -1871,12 +1872,12 @@ export default class VlCPlayerViewByMethod extends Component {
                                 onStopped={this._onAdStopped}
                                 initOptions={initAdOptions}
                                 initType={initAdType}
-                                mediaOptions={
-                                    {
-                                        ':network-caching': 400,
-                                        ':live-caching': 400,
-                                        ':clock-jitter': 0,
-                                    }
+                                mediaOptions={mediaOptions ||
+                                [
+                                    ':network-caching': 400,
+                                    ':live-caching': 400,
+                                    ':clock-jitter': 0,
+                                    ]
                                 }
                             />
                         )}
@@ -1904,12 +1905,12 @@ export default class VlCPlayerViewByMethod extends Component {
                                 onEnd={this._onEnd}
                                 initOptions={initOptions}
                                 initType={initType}
-                                mediaOptions={
-                                    {
-                                        ':network-caching': 400,
-                                        ':live-caching': 400,
-                                        ':clock-jitter': 0,
-                                    }
+                                mediaOptions={mediaOptions ||
+                                [
+                                    ':network-caching': 400,
+                                    ':live-caching': 400,
+                                    ':clock-jitter': 0,
+                                    ]
                                 }
                             />
                         )}
