@@ -13,10 +13,10 @@ import {
     Dimensions,
     ActivityIndicator,
     Animated,
-    NetInfo,
     ScrollView
 } from 'react-native';
 
+import NetInfo from "@react-native-community/netinfo";
 import VLCPlayerView from './VLCPlayerView';
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -346,9 +346,7 @@ export default class VlCPlayerViewByMethod extends Component {
     componentWillUnmount() {
         try {
             let {isFull, Orientation, useNetInfo} = this.props;
-            this.setState({
-                canShowVideo: false
-            });
+
             if (isFull) {
                 this._onCloseFullScreen();
             }
@@ -2024,7 +2022,6 @@ const styles = StyleSheet.create({
     },
     centerContainerBtn: {
         marginTop: 20,
-        paddingLeft: 5,
         paddingLeft: 10,
         paddingRight: 10,
         minWidth: 100,
